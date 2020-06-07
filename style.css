@@ -1,0 +1,254 @@
+html, body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2e2e2e;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+header .nav__signup a {
+  text-decoration: none;
+  color: #9f9f9f;
+}
+
+header .nav__signup a:hover {
+  color: #db4a39;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+header ul li {
+  margin: 0 10px;
+}
+
+header .nav__font li {
+  padding: 5px 10px;
+  background-color: #9f9f9f;
+  border-radius: 50%;
+}
+
+header .nav__font li:hover {
+  background-color: #db4a39;
+}
+
+header .nav__font li a {
+  color: #ffffff;
+}
+
+.menu {
+  padding: 20px 0;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu li {
+  padding-bottom: 3px;
+}
+
+.menu li:hover {
+  border-bottom: 3px solid #0099ff;
+  padding-bottom: 0;
+}
+
+.menu a {
+  color: #1a1a1a;
+  text-transform: uppercase;
+}
+
+.menu a:hover {
+  color: #9f9f9f;
+}
+
+.description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.description .description__txt {
+  padding: 0 0 0 40px;
+}
+
+.description .description__img img {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
+}
+
+@media screen and (max-width: 855px) {
+  .cards {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+  }
+  img {
+    display: block;
+    height: 10rem;
+    width: 10rem;
+    text-align: center;
+  }
+  .card {
+    padding: 5px 15px;
+    text-align: center;
+  }
+  .card__img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer table td:nth-child(odd) {
+  background-color: #8de6d2;
+}
+
+footer table td:nth-child(odd) a {
+  color: #1a1a1a;
+}
+
+footer table td:nth-child(even) {
+  background-color: #db4a39;
+}
+
+.footer__top {
+  background: #1a1a1a;
+  padding-top: 30px;
+  color: #9f9f9f;
+}
+
+.footer__top h3 {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+
+.footer__top img {
+  display: block;
+  width: 215px;
+  height: 90px;
+  padding: 3px;
+}
+
+.footer__top .quicklinks {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer__top .quicklinks li {
+  border-bottom: 1px solid #9f9f9f;
+  width: 14rem;
+}
+
+.footer__top .quicklinks li:last-child {
+  border-bottom: none;
+}
+
+.footer__top .quicklinks li:before {
+  content: "\226B";
+  font-size: 0.7rem;
+}
+
+.footer__top .btn__more:after {
+  content: " \226B";
+  font-size: 0.7rem;
+}
+
+.footer__top form > * {
+  display: block;
+  width: 20rem;
+  margin-top: 0.4rem;
+}
+
+.footer__top form > *:last-child {
+  width: 6rem;
+}
+
+.table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.table table {
+  border: 2px solid #577da3;
+  margin: 0;
+  padding: 0;
+}
+
+.table th:nth-child(odd) {
+  background-color: #577da3;
+  color: #fff;
+}
+
+.table tr:nth-child(2) > :nth-child(even) {
+  background-color: #577da3;
+  color: #fff;
+}
+
+.table td {
+  border: 2px solid #577da3;
+}
+/*# sourceMappingURL=style.css.map */
